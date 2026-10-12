@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "scene": "寒暄与问候",
+    "en": "Hey, how's it going?",
+    "zh": "嗨，最近怎么样？"
+  },
+  {
+    "id": 2,
+    "scene": "寒暄与问候",
+    "en": "Pretty good. How about you?",
+    "zh": "挺好的，你呢？"
+  },
+  {
+    "id": 3,
+    "scene": "寒暄与问候",
+    "en": "Not bad. Just a little tired.",
+    "zh": "还不错，就是有点累。"
+  },
+  {
+    "id": 4,
+    "scene": "寒暄与问候",
+    "en": "What have you been up to?",
+    "zh": "你最近都在忙什么？"
+  },
+  {
+    "id": 5,
+    "scene": "寒暄与问候",
+    "en": "It's been a while!",
+    "zh": "好久不见！"
+  },
+  {
+    "id": 6,
+    "scene": "寒暄与问候",
+    "en": "Good to see you again.",
+    "zh": "很高兴又见到你。"
+  },
+  {
+    "id": 7,
+    "scene": "寒暄与问候",
+    "en": "How was your weekend?",
+    "zh": "你周末过得怎么样？"
+  },
+  {
+    "id": 8,
+    "scene": "寒暄与问候",
+    "en": "It was great. I just relaxed at home.",
+    "zh": "挺好的，我就在家休息。"
+  },
+  {
+    "id": 9,
+    "scene": "寒暄与问候",
+    "en": "Have a good one!",
+    "zh": "祝你今天过得愉快！"
+  },
+  {
+    "id": 10,
+    "scene": "寒暄与问候",
+    "en": "See you around!",
+    "zh": "回头见！"
+  },
+  {
+    "id": 11,
+    "scene": "日常聊天",
+    "en": "What are you up to?",
+    "zh": "你在忙什么呢？"
+  },
+  {
+    "id": 12,
+    "scene": "日常聊天",
+    "en": "Not much. Just hanging out.",
+    "zh": "没什么，就随便待着。"
+  },
+  {
+    "id": 13,
+    "scene": "日常聊天",
+    "en": "Anything new with you?",
+    "zh": "你最近有什么新鲜事吗？"
+  },
+  {
+    "id": 14,
+    "scene": "日常聊天",
+    "en": "Same old, same old.",
+    "zh": "还是老样子。"
+  },
+  {
+    "id": 15,
+    "scene": "日常聊天",
+    "en": "How's your day going?",
+    "zh": "你今天过得怎么样？"
+  },
+  {
+    "id": 16,
+    "scene": "日常聊天",
+    "en": "It's been a busy day.",
+    "zh": "今天挺忙的。"
+  },
+  {
+    "id": 17,
+    "scene": "日常聊天",
+    "en": "I've had a long day.",
+    "zh": "今天真是漫长的一天。"
+  },
+  {
+    "id": 18,
+    "scene": "日常聊天",
+    "en": "That sounds fun!",
+    "zh": "听起来很有意思！"
+  },
+  {
+    "id": 19,
+    "scene": "日常聊天",
+    "en": "No way! What happened?",
+    "zh": "不会吧！发生什么了？"
+  },
+  {
+    "id": 20,
+    "scene": "日常聊天",
+    "en": "Tell me more about it.",
+    "zh": "再跟我多说说。"
+  },
+  {
+    "id": 21,
+    "scene": "听不懂与确认",
+    "en": "Sorry, I didn't catch that.",
+    "zh": "不好意思，我刚才没听清。"
+  },
+  {
+    "id": 22,
+    "scene": "听不懂与确认",
+    "en": "Could you say that again?",
+    "zh": "你能再说一遍吗？"
+  },
+  {
+    "id": 23,
+    "scene": "听不懂与确认",
+    "en": "Could you speak a little more slowly?",
+    "zh": "你能稍微说慢一点吗？"
+  },
+  {
+    "id": 24,
+    "scene": "听不懂与确认",
+    "en": "What does that mean?",
+    "zh": "那是什么意思？"
+  },
+  {
+    "id": 25,
+    "scene": "听不懂与确认",
+    "en": "How do you spell that?",
+    "zh": "那个怎么拼？"
+  },
+  {
+    "id": 26,
+    "scene": "听不懂与确认",
+    "en": "Let me make sure I understand.",
+    "zh": "我确认一下自己有没有理解对。"
+  },
+  {
+    "id": 27,
+    "scene": "听不懂与确认",
+    "en": "So, you mean tomorrow?",
+    "zh": "所以你的意思是明天？"
+  },
+  {
+    "id": 28,
+    "scene": "听不懂与确认",
+    "en": "Did I get that right?",
+    "zh": "我理解得对吗？"
+  },
+  {
+    "id": 29,
+    "scene": "听不懂与确认",
+    "en": "I'm still learning English.",
+    "zh": "我还在学英语。"
+  },
+  {
+    "id": 30,
+    "scene": "听不懂与确认",
+    "en": "Thanks for explaining.",
+    "zh": "谢谢你解释给我听。"
+  },
+  {
+    "id": 31,
+    "scene": "咖啡店点单",
+    "en": "Can I get a medium latte, please?",
+    "zh": "请给我一杯中杯拿铁。"
+  },
+  {
+    "id": 32,
+    "scene": "咖啡店点单",
+    "en": "Could I get that iced?",
+    "zh": "可以做成冰的吗？"
+  },
+  {
+    "id": 33,
+    "scene": "咖啡店点单",
+    "en": "What do you recommend?",
+    "zh": "你有什么推荐的吗？"
+  },
+  {
+    "id": 34,
+    "scene": "咖啡店点单",
+    "en": "I'll have the same, please.",
+    "zh": "我也要一样的。"
+  },
+  {
+    "id": 35,
+    "scene": "咖啡店点单",
+    "en": "Can I get it with oat milk?",
+    "zh": "可以换成燕麦奶吗？"
+  },
+  {
+    "id": 36,
+    "scene": "咖啡店点单",
+    "en": "No sugar, please.",
+    "zh": "请不要加糖。"
+  },
+  {
+    "id": 37,
+    "scene": "咖啡店点单",
+    "en": "Is this for here or to go?",
+    "zh": "在这里喝还是带走？"
+  },
+  {
+    "id": 38,
+    "scene": "咖啡店点单",
+    "en": "To go, please.",
+    "zh": "带走，谢谢。"
+  },
+  {
+    "id": 39,
+    "scene": "咖啡店点单",
+    "en": "Could I get an extra cup?",
+    "zh": "可以再给我一个杯子吗？"
+  },
+  {
+    "id": 40,
+    "scene": "咖啡店点单",
+    "en": "That's everything, thanks.",
+    "zh": "就这些，谢谢。"
+  },
+  {
+    "id": 41,
+    "scene": "餐厅用餐",
+    "en": "Do you have a table for two?",
+    "zh": "请问有两个人的位子吗？"
+  },
+  {
+    "id": 42,
+    "scene": "餐厅用餐",
+    "en": "Could we see the menu?",
+    "zh": "可以给我们看看菜单吗？"
+  },
+  {
+    "id": 43,
+    "scene": "餐厅用餐",
+    "en": "What's popular here?",
+    "zh": "你们这里什么菜比较受欢迎？"
+  },
+  {
+    "id": 44,
+    "scene": "餐厅用餐",
+    "en": "I'm ready to order.",
+    "zh": "我可以点餐了。"
+  },
+  {
+    "id": 45,
+    "scene": "餐厅用餐",
+    "en": "Could I have the sauce on the side?",
+    "zh": "酱汁可以单独放吗？"
+  },
+  {
+    "id": 46,
+    "scene": "餐厅用餐",
+    "en": "Can we get some water, please?",
+    "zh": "可以给我们一些水吗？"
+  },
+  {
+    "id": 47,
+    "scene": "餐厅用餐",
+    "en": "How spicy is this?",
+    "zh": "这个有多辣？"
+  },
+  {
+    "id": 48,
+    "scene": "餐厅用餐",
+    "en": "Could we get the check, please?",
+    "zh": "可以给我们结账吗？"
+  },
+  {
+    "id": 49,
+    "scene": "餐厅用餐",
+    "en": "Can we split the bill?",
+    "zh": "我们可以分开结账吗？"
+  },
+  {
+    "id": 50,
+    "scene": "餐厅用餐",
+    "en": "Everything was delicious.",
+    "zh": "每道菜都很好吃。"
+  },
+  {
+    "id": 51,
+    "scene": "购物与付款",
+    "en": "I'm just looking, thanks.",
+    "zh": "我先随便看看，谢谢。"
+  },
+  {
+    "id": 52,
+    "scene": "购物与付款",
+    "en": "Do you have this in a smaller size?",
+    "zh": "这个有小一码的吗？"
+  },
+  {
+    "id": 53,
+    "scene": "购物与付款",
+    "en": "Can I try this on?",
+    "zh": "我可以试穿吗？"
+  },
+  {
+    "id": 54,
+    "scene": "购物与付款",
+    "en": "Where are the fitting rooms?",
+    "zh": "试衣间在哪里？"
+  },
+  {
+    "id": 55,
+    "scene": "购物与付款",
+    "en": "Do you have this in black?",
+    "zh": "这个有黑色的吗？"
+  },
+  {
+    "id": 56,
+    "scene": "购物与付款",
+    "en": "How much is this?",
+    "zh": "这个多少钱？"
+  },
+  {
+    "id": 57,
+    "scene": "购物与付款",
+    "en": "Is this on sale?",
+    "zh": "这个在打折吗？"
+  },
+  {
+    "id": 58,
+    "scene": "购物与付款",
+    "en": "Can I pay by card?",
+    "zh": "我可以刷卡吗？"
+  },
+  {
+    "id": 59,
+    "scene": "购物与付款",
+    "en": "Could I get a receipt?",
+    "zh": "可以给我收据吗？"
+  },
+  {
+    "id": 60,
+    "scene": "购物与付款",
+    "en": "What's your return policy?",
+    "zh": "你们的退货政策是什么？"
+  },
+  {
+    "id": 61,
+    "scene": "出行与问路",
+    "en": "Excuse me, how do I get to the station?",
+    "zh": "打扰一下，去车站怎么走？"
+  },
+  {
+    "id": 62,
+    "scene": "出行与问路",
+    "en": "Is it within walking distance?",
+    "zh": "走路能到吗？"
+  },
+  {
+    "id": 63,
+    "scene": "出行与问路",
+    "en": "Which way should I go?",
+    "zh": "我该往哪边走？"
+  },
+  {
+    "id": 64,
+    "scene": "出行与问路",
+    "en": "Am I going the right way?",
+    "zh": "我走对方向了吗？"
+  },
+  {
+    "id": 65,
+    "scene": "出行与问路",
+    "en": "How long does it take to get there?",
+    "zh": "到那里要多久？"
+  },
+  {
+    "id": 66,
+    "scene": "出行与问路",
+    "en": "Where's the nearest bus stop?",
+    "zh": "最近的公交站在哪里？"
+  },
+  {
+    "id": 67,
+    "scene": "出行与问路",
+    "en": "Does this train go downtown?",
+    "zh": "这趟火车去市中心吗？"
+  },
+  {
+    "id": 68,
+    "scene": "出行与问路",
+    "en": "Which stop should I get off at?",
+    "zh": "我应该在哪一站下车？"
+  },
+  {
+    "id": 69,
+    "scene": "出行与问路",
+    "en": "Could you drop me off here?",
+    "zh": "可以在这里让我下车吗？"
+  },
+  {
+    "id": 70,
+    "scene": "出行与问路",
+    "en": "Thanks for the ride!",
+    "zh": "谢谢你载我一程！"
+  },
+  {
+    "id": 71,
+    "scene": "朋友邀约",
+    "en": "Wanna grab a coffee sometime?",
+    "zh": "改天要不要一起喝杯咖啡？"
+  },
+  {
+    "id": 72,
+    "scene": "朋友邀约",
+    "en": "Are you free this weekend?",
+    "zh": "你这周末有空吗？"
+  },
+  {
+    "id": 73,
+    "scene": "朋友邀约",
+    "en": "Do you wanna come with us?",
+    "zh": "你想和我们一起去吗？"
+  },
+  {
+    "id": 74,
+    "scene": "朋友邀约",
+    "en": "I'd love to!",
+    "zh": "我很乐意！"
+  },
+  {
+    "id": 75,
+    "scene": "朋友邀约",
+    "en": "Sounds good to me.",
+    "zh": "我觉得不错。"
+  },
+  {
+    "id": 76,
+    "scene": "朋友邀约",
+    "en": "What time works for you?",
+    "zh": "你什么时间方便？"
+  },
+  {
+    "id": 77,
+    "scene": "朋友邀约",
+    "en": "Let's meet around six.",
+    "zh": "我们六点左右见吧。"
+  },
+  {
+    "id": 78,
+    "scene": "朋友邀约",
+    "en": "I'm running a little late.",
+    "zh": "我可能要晚到一会儿。"
+  },
+  {
+    "id": 79,
+    "scene": "朋友邀约",
+    "en": "No rush. Take your time.",
+    "zh": "不着急，慢慢来。"
+  },
+  {
+    "id": 80,
+    "scene": "朋友邀约",
+    "en": "Maybe another time.",
+    "zh": "要不改天吧。"
+  },
+  {
+    "id": 81,
+    "scene": "表达感受与意见",
+    "en": "I love this place.",
+    "zh": "我很喜欢这个地方。"
+  },
+  {
+    "id": 82,
+    "scene": "表达感受与意见",
+    "en": "I'm not really into it.",
+    "zh": "我不太喜欢这个。"
+  },
+  {
+    "id": 83,
+    "scene": "表达感受与意见",
+    "en": "That makes sense.",
+    "zh": "这就说得通了。"
+  },
+  {
+    "id": 84,
+    "scene": "表达感受与意见",
+    "en": "I see what you mean.",
+    "zh": "我明白你的意思。"
+  },
+  {
+    "id": 85,
+    "scene": "表达感受与意见",
+    "en": "I'm not sure about that.",
+    "zh": "这个我不太确定。"
+  },
+  {
+    "id": 86,
+    "scene": "表达感受与意见",
+    "en": "I think it's worth a try.",
+    "zh": "我觉得值得试试。"
+  },
+  {
+    "id": 87,
+    "scene": "表达感受与意见",
+    "en": "That's a good point.",
+    "zh": "你说得有道理。"
+  },
+  {
+    "id": 88,
+    "scene": "表达感受与意见",
+    "en": "I'm really looking forward to it.",
+    "zh": "我真的很期待。"
+  },
+  {
+    "id": 89,
+    "scene": "表达感受与意见",
+    "en": "I'm a bit nervous.",
+    "zh": "我有点紧张。"
+  },
+  {
+    "id": 90,
+    "scene": "表达感受与意见",
+    "en": "I feel much better now.",
+    "zh": "我现在感觉好多了。"
+  },
+  {
+    "id": 91,
+    "scene": "请求帮助与应急",
+    "en": "Could you give me a hand?",
+    "zh": "你能帮我一下吗？"
+  },
+  {
+    "id": 92,
+    "scene": "请求帮助与应急",
+    "en": "Could you show me how this works?",
+    "zh": "你能教我怎么用这个吗？"
+  },
+  {
+    "id": 93,
+    "scene": "请求帮助与应急",
+    "en": "Give me a second, please.",
+    "zh": "请稍等我一下。"
+  },
+  {
+    "id": 94,
+    "scene": "请求帮助与应急",
+    "en": "I'm looking for my phone.",
+    "zh": "我在找我的手机。"
+  },
+  {
+    "id": 95,
+    "scene": "请求帮助与应急",
+    "en": "I think I left my bag here.",
+    "zh": "我好像把包落在这里了。"
+  },
+  {
+    "id": 96,
+    "scene": "请求帮助与应急",
+    "en": "Could you help me find it?",
+    "zh": "你能帮我找一下吗？"
+  },
+  {
+    "id": 97,
+    "scene": "请求帮助与应急",
+    "en": "I need to see a doctor.",
+    "zh": "我需要看医生。"
+  },
+  {
+    "id": 98,
+    "scene": "请求帮助与应急",
+    "en": "Is there a pharmacy nearby?",
+    "zh": "附近有药店吗？"
+  },
+  {
+    "id": 99,
+    "scene": "请求帮助与应急",
+    "en": "Could you call a taxi for me?",
+    "zh": "你能帮我叫辆出租车吗？"
+  },
+  {
+    "id": 100,
+    "scene": "请求帮助与应急",
+    "en": "Thank you. I really appreciate it.",
+    "zh": "谢谢你，真的很感谢。"
+  }
+]
