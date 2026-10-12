@@ -1,0 +1,26 @@
+name: Generate Kokoro preview
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
+      - name: Install Kokoro
+        run: pip install 'kokoro>=0.9.4,<1.0' soundfile numpy
+      - name: Generate natural male voice
+        run: python v2/generate_kokoro.py
+      - name: Publish generated MP3 files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add v2/audio/*.mp3
+          git diff --cached --quiet || (git commit -m 'Add Kokoro natural male voice preview' && git push)
