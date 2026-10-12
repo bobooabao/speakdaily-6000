@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "scene": "见面寒暄",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey! How's it going?",
+        "zh": "嘿！最近怎么样？"
+      },
+      {
+        "speaker": "B",
+        "en": "Pretty good. How about you?",
+        "zh": "挺好的，你呢？"
+      },
+      {
+        "speaker": "A",
+        "en": "Can't complain. Just been busy with work.",
+        "zh": "还行，就是最近工作有点忙。"
+      },
+      {
+        "speaker": "B",
+        "en": "I hear you. Same here.",
+        "zh": "太懂了，我也是。"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "scene": "熟人闲聊",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "What have you been up to lately?",
+        "zh": "你最近都在忙什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "Not much. Just working and hanging out.",
+        "zh": "没什么，就是上班、和朋友聚聚。"
+      },
+      {
+        "speaker": "A",
+        "en": "Anything fun planned for the weekend?",
+        "zh": "周末有什么好玩的安排吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Not yet. Got any ideas?",
+        "zh": "还没有，你有什么主意？"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "scene": "约朋友喝咖啡",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "You wanna grab coffee later?",
+        "zh": "待会儿要不要去喝杯咖啡？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm down. What time?",
+        "zh": "好啊，几点？"
+      },
+      {
+        "speaker": "A",
+        "en": "How about around three?",
+        "zh": "三点左右怎么样？"
+      },
+      {
+        "speaker": "B",
+        "en": "Works for me. See you then.",
+        "zh": "我可以，到时候见。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "scene": "婉拒邀约",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Wanna come over tonight?",
+        "zh": "今晚要不要来我家？"
+      },
+      {
+        "speaker": "B",
+        "en": "Thanks, but I'm gonna sit this one out.",
+        "zh": "谢谢，不过这次我就不去了。"
+      },
+      {
+        "speaker": "A",
+        "en": "No worries. Everything okay?",
+        "zh": "没事，你还好吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, I'm just wiped out. Rain check?",
+        "zh": "没事，就是累坏了。改天好吗？"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "scene": "迟到通知",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, where are you?",
+        "zh": "嘿，你到哪儿了？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm on my way, but I'm running a bit late.",
+        "zh": "我在路上，不过可能会晚一点。"
+      },
+      {
+        "speaker": "A",
+        "en": "No rush. How far out are you?",
+        "zh": "不着急，你还有多久到？"
+      },
+      {
+        "speaker": "B",
+        "en": "About ten minutes. My bad!",
+        "zh": "大概十分钟，不好意思啊！"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "scene": "听不懂对方",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "We can just play it by ear.",
+        "zh": "我们到时候看情况再定。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sorry, what does 'play it by ear' mean?",
+        "zh": "不好意思，play it by ear 是什么意思？"
+      },
+      {
+        "speaker": "A",
+        "en": "It means we don't have to decide right now.",
+        "zh": "就是不用现在做决定。"
+      },
+      {
+        "speaker": "B",
+        "en": "Oh, got it. Thanks!",
+        "zh": "哦，懂了，谢谢！"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "scene": "请对方说慢点",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Could you fill out this form and bring it back?",
+        "zh": "你能填好这张表再拿回来吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sorry, could you say that a little more slowly?",
+        "zh": "不好意思，你能说慢一点吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure. Fill out this form, then bring it back here.",
+        "zh": "当然。填好这张表，然后拿回这里。"
+      },
+      {
+        "speaker": "B",
+        "en": "Got it. Thank you.",
+        "zh": "明白了，谢谢。"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "scene": "询问意见",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "What do you think of this place?",
+        "zh": "你觉得这家店怎么样？"
+      },
+      {
+        "speaker": "B",
+        "en": "Honestly, I love the vibe.",
+        "zh": "我挺喜欢这里的氛围。"
+      },
+      {
+        "speaker": "A",
+        "en": "Same! The coffee's pretty good, too.",
+        "zh": "我也是！咖啡也挺不错。"
+      },
+      {
+        "speaker": "B",
+        "en": "We should come back sometime.",
+        "zh": "我们改天可以再来。"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "scene": "决定吃什么",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "What are you in the mood for?",
+        "zh": "你想吃点什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm good with anything. You pick.",
+        "zh": "我都行，你决定吧。"
+      },
+      {
+        "speaker": "A",
+        "en": "How about Thai food?",
+        "zh": "泰国菜怎么样？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sounds good to me.",
+        "zh": "我觉得不错。"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "scene": "咖啡店点单",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi! What can I get started for you?",
+        "zh": "你好！想喝点什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "Can I get an iced latte with oat milk?",
+        "zh": "请给我一杯燕麦奶冰拿铁。"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure. What size?",
+        "zh": "好的，要多大杯？"
+      },
+      {
+        "speaker": "B",
+        "en": "Medium, please. That's all.",
+        "zh": "中杯，谢谢，就这些。"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "scene": "咖啡店取餐",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Iced latte for Alex!",
+        "zh": "亚历克斯的冰拿铁！"
+      },
+      {
+        "speaker": "B",
+        "en": "That's me. Thanks!",
+        "zh": "是我的，谢谢！"
+      },
+      {
+        "speaker": "A",
+        "en": "Of course. Have a good one!",
+        "zh": "不客气，祝你今天愉快！"
+      },
+      {
+        "speaker": "B",
+        "en": "You too!",
+        "zh": "你也是！"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "scene": "餐厅候位",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi, table for two?",
+        "zh": "你好，两位吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes. How long is the wait?",
+        "zh": "对，大概要等多久？"
+      },
+      {
+        "speaker": "A",
+        "en": "About fifteen minutes.",
+        "zh": "大约十五分钟。"
+      },
+      {
+        "speaker": "B",
+        "en": "That's fine. Could you put us on the list?",
+        "zh": "没问题，麻烦帮我们排一下队。"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "scene": "餐厅推荐",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Are you ready to order?",
+        "zh": "可以点餐了吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Almost. What's your favorite thing here?",
+        "zh": "快了。你最推荐哪道菜？"
+      },
+      {
+        "speaker": "A",
+        "en": "The grilled salmon is really popular.",
+        "zh": "烤三文鱼很受欢迎。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'll go with that, then.",
+        "zh": "那我就点这个。"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "scene": "餐厅结账",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "How was everything?",
+        "zh": "今天的餐点怎么样？"
+      },
+      {
+        "speaker": "B",
+        "en": "Really good, thanks. Could we get the check?",
+        "zh": "很好吃，谢谢。可以结账吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Of course. Together or separate?",
+        "zh": "当然。一起付还是分开付？"
+      },
+      {
+        "speaker": "B",
+        "en": "Separate, please.",
+        "zh": "分开付，谢谢。"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "scene": "外卖出问题",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, did the food arrive?",
+        "zh": "嘿，外卖到了吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, but they forgot my drink.",
+        "zh": "到了，但他们漏了我的饮料。"
+      },
+      {
+        "speaker": "A",
+        "en": "That's annoying. Did you contact support?",
+        "zh": "真烦。你联系客服了吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Not yet. I'll do it now.",
+        "zh": "还没，我现在联系。"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "scene": "超市找商品",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Excuse me, where can I find eggs?",
+        "zh": "打扰一下，鸡蛋在哪里？"
+      },
+      {
+        "speaker": "B",
+        "en": "Aisle five, near the milk.",
+        "zh": "五号通道，牛奶附近。"
+      },
+      {
+        "speaker": "A",
+        "en": "Awesome, thanks!",
+        "zh": "太好了，谢谢！"
+      },
+      {
+        "speaker": "B",
+        "en": "No problem!",
+        "zh": "不客气！"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "scene": "商店试衣",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "How's everything fitting?",
+        "zh": "衣服穿着合适吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's a little tight. Do you have a size up?",
+        "zh": "有点紧，有大一码的吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Let me check in the back.",
+        "zh": "我去后面看看。"
+      },
+      {
+        "speaker": "B",
+        "en": "Thanks, I appreciate it.",
+        "zh": "谢谢，麻烦你了。"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "scene": "问路",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Excuse me, is the station far from here?",
+        "zh": "打扰一下，车站离这里远吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Not really. It's about a ten-minute walk.",
+        "zh": "不远，走路大概十分钟。"
+      },
+      {
+        "speaker": "A",
+        "en": "Great. Am I heading the right way?",
+        "zh": "太好了。我走的方向对吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yep. Just keep going straight.",
+        "zh": "对，一直往前走就行。"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "scene": "打车",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi, are you here for Alex?",
+        "zh": "你好，你是来接亚历克斯的吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yep. Heading to the airport?",
+        "zh": "对，要去机场是吧？"
+      },
+      {
+        "speaker": "A",
+        "en": "That's right. Could you pop the trunk?",
+        "zh": "没错。能打开后备箱吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure thing.",
+        "zh": "当然可以。"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "scene": "酒店入住",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi there. Checking in?",
+        "zh": "你好，要办理入住吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, I have a reservation under Chen.",
+        "zh": "对，我用陈这个名字订了房。"
+      },
+      {
+        "speaker": "A",
+        "en": "Great. Can I see your ID?",
+        "zh": "好的，可以看一下证件吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure, here you go.",
+        "zh": "当然，给你。"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "scene": "民宿进门",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, we just got here. How do we get in?",
+        "zh": "你好，我们刚到。怎么进门？"
+      },
+      {
+        "speaker": "B",
+        "en": "There's a keypad next to the door.",
+        "zh": "门旁边有密码键盘。"
+      },
+      {
+        "speaker": "A",
+        "en": "Got it. Is the code in the message?",
+        "zh": "明白了。密码在消息里吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yep! Let me know if you have trouble.",
+        "zh": "对！有问题随时告诉我。"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "scene": "机场值机",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Are you checking any bags today?",
+        "zh": "今天有行李要托运吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Just this one suitcase.",
+        "zh": "就这一个行李箱。"
+      },
+      {
+        "speaker": "A",
+        "en": "Any liquids or batteries inside?",
+        "zh": "里面有液体或电池吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "No batteries. Just clothes and toiletries.",
+        "zh": "没有电池，只有衣服和洗漱用品。"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "scene": "飞机上要饮料",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Would you like something to drink?",
+        "zh": "您想喝点什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "Could I have an orange juice, please?",
+        "zh": "可以给我一杯橙汁吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure. Anything else?",
+        "zh": "当然，还需要什么吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "No, that's it. Thank you.",
+        "zh": "不用了，就这些，谢谢。"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "scene": "初次认识",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, I'm Jamie. What's your name?",
+        "zh": "嗨，我叫杰米。你叫什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm Alex. Nice to meet you.",
+        "zh": "我叫亚历克斯，很高兴认识你。"
+      },
+      {
+        "speaker": "A",
+        "en": "Nice to meet you, too. Are you from around here?",
+        "zh": "我也很高兴认识你。你是本地人吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "No, I'm just visiting.",
+        "zh": "不是，我只是来旅游的。"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "scene": "工作沟通",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, do you have a sec?",
+        "zh": "嘿，你有空吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure, what's up?",
+        "zh": "有，怎么了？"
+      },
+      {
+        "speaker": "A",
+        "en": "Could you take a look at this design?",
+        "zh": "能帮我看一下这个设计吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, send it over.",
+        "zh": "可以，发过来吧。"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "scene": "会议确认",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Are we still on for two?",
+        "zh": "我们还是两点开会吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yep, two works for me.",
+        "zh": "对，两点我没问题。"
+      },
+      {
+        "speaker": "A",
+        "en": "Great. I'll send the link.",
+        "zh": "好，我把链接发你。"
+      },
+      {
+        "speaker": "B",
+        "en": "Perfect, thanks.",
+        "zh": "太好了，谢谢。"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "scene": "视频通话卡顿",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, you're breaking up.",
+        "zh": "嘿，你的声音断断续续的。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sorry, my Wi-Fi's acting up.",
+        "zh": "抱歉，我的无线网络不太稳定。"
+      },
+      {
+        "speaker": "A",
+        "en": "No worries. Wanna turn off your camera?",
+        "zh": "没事，要不先关掉摄像头？"
+      },
+      {
+        "speaker": "B",
+        "en": "Good idea. Is that better?",
+        "zh": "好主意。现在好点了吗？"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "scene": "表达同意",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "I think we should keep it simple.",
+        "zh": "我觉得我们应该保持简单。"
+      },
+      {
+        "speaker": "B",
+        "en": "Totally. Less is more.",
+        "zh": "完全同意，少即是多。"
+      },
+      {
+        "speaker": "A",
+        "en": "So let's cut the extra stuff.",
+        "zh": "那我们把多余的内容删掉。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sounds like a plan.",
+        "zh": "就这么办。"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "scene": "表达不同意见",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "I think we should launch tomorrow.",
+        "zh": "我觉得我们明天就该上线。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm not so sure about that.",
+        "zh": "我不太确定这样合适。"
+      },
+      {
+        "speaker": "A",
+        "en": "What's your concern?",
+        "zh": "你担心什么？"
+      },
+      {
+        "speaker": "B",
+        "en": "We might need another round of testing.",
+        "zh": "我们可能还需要再测试一轮。"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "scene": "表达歉意",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, I think you took my seat.",
+        "zh": "嘿，我想你坐了我的位子。"
+      },
+      {
+        "speaker": "B",
+        "en": "Oh, my bad! I didn't realize.",
+        "zh": "哦，不好意思！我没注意。"
+      },
+      {
+        "speaker": "A",
+        "en": "No big deal.",
+        "zh": "没关系。"
+      },
+      {
+        "speaker": "B",
+        "en": "Thanks for being cool about it.",
+        "zh": "谢谢你不介意。"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "scene": "关心朋友",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, you good?",
+        "zh": "嘿，你还好吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, just a little stressed.",
+        "zh": "还好，就是有点压力。"
+      },
+      {
+        "speaker": "A",
+        "en": "Wanna talk about it?",
+        "zh": "想聊聊吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Maybe later. Thanks for asking.",
+        "zh": "可能晚点吧，谢谢你关心。"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "scene": "借东西",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, can I borrow your charger?",
+        "zh": "嘿，能借一下你的充电器吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, go for it.",
+        "zh": "当然，拿去用吧。"
+      },
+      {
+        "speaker": "A",
+        "en": "Thanks. I'll give it right back.",
+        "zh": "谢谢，我马上还你。"
+      },
+      {
+        "speaker": "B",
+        "en": "No rush.",
+        "zh": "不着急。"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "scene": "做决定",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Should we go now or wait a bit?",
+        "zh": "我们现在走还是等一会儿？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's up to you.",
+        "zh": "你决定吧。"
+      },
+      {
+        "speaker": "A",
+        "en": "Let's head out now, then.",
+        "zh": "那我们现在出发吧。"
+      },
+      {
+        "speaker": "B",
+        "en": "Cool, let's go.",
+        "zh": "好，走吧。"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "scene": "临时改计划",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Looks like it's gonna rain.",
+        "zh": "看起来要下雨了。"
+      },
+      {
+        "speaker": "B",
+        "en": "Should we call it off?",
+        "zh": "我们要取消吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Let's just move it indoors.",
+        "zh": "我们改到室内吧。"
+      },
+      {
+        "speaker": "B",
+        "en": "Works for me.",
+        "zh": "我没问题。"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "scene": "遇到麻烦",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "I think I lost my wallet.",
+        "zh": "我好像把钱包弄丢了。"
+      },
+      {
+        "speaker": "B",
+        "en": "Oh no. Where did you last see it?",
+        "zh": "天啊。你最后一次在哪里见到它？"
+      },
+      {
+        "speaker": "A",
+        "en": "Maybe at the café.",
+        "zh": "可能在咖啡店。"
+      },
+      {
+        "speaker": "B",
+        "en": "Let's call them and ask.",
+        "zh": "我们打电话问问吧。"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "scene": "药店咨询",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi, can I ask you a question?",
+        "zh": "你好，可以咨询一下吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Of course. What can I help you with?",
+        "zh": "当然，有什么能帮你的？"
+      },
+      {
+        "speaker": "A",
+        "en": "I've had a headache since this morning.",
+        "zh": "我从早上开始一直头疼。"
+      },
+      {
+        "speaker": "B",
+        "en": "Are you taking any other medications?",
+        "zh": "你还在服用其他药物吗？"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "scene": "快递未收到",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hi, my package says delivered, but I can't find it.",
+        "zh": "你好，物流显示包裹送到了，但我找不到。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm sorry about that. Can I have your tracking number?",
+        "zh": "很抱歉。能提供运单号吗？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure, let me pull it up.",
+        "zh": "好的，我找一下。"
+      },
+      {
+        "speaker": "B",
+        "en": "Take your time.",
+        "zh": "不着急。"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "scene": "学习发音",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "How do you pronounce this word?",
+        "zh": "这个词怎么发音？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's pronounced 'comfortable'.",
+        "zh": "它读作 comfortable。"
+      },
+      {
+        "speaker": "A",
+        "en": "Can you say it one more time?",
+        "zh": "你能再说一遍吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure. Comfortable.",
+        "zh": "当然。Comfortable。"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "scene": "自然结束聊天",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Anyway, I should get going.",
+        "zh": "好了，我差不多该走了。"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, it was great catching up.",
+        "zh": "嗯，今天聊得很开心。"
+      },
+      {
+        "speaker": "A",
+        "en": "Let's do this again soon.",
+        "zh": "我们改天再聚。"
+      },
+      {
+        "speaker": "B",
+        "en": "For sure. Take care!",
+        "zh": "一定，保重！"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "scene": "简单回应",
+    "turns": [
+      {
+        "speaker": "A",
+        "en": "Hey, did you get my text?",
+        "zh": "嘿，你收到我发的消息了吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yep, just saw it.",
+        "zh": "收到了，刚看到。"
+      },
+      {
+        "speaker": "A",
+        "en": "Can you make it tonight?",
+        "zh": "你今晚能来吗？"
+      },
+      {
+        "speaker": "B",
+        "en": "I think so. I'll let you know.",
+        "zh": "应该可以，我再告诉你。"
+      }
+    ]
+  }
+]
