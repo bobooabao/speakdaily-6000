@@ -5,8 +5,6 @@ on:
       - '.github/workflows/generate-all-kokoro.yml'
       - 'scripts/generate_all_kokoro.py'
   workflow_dispatch:
-  schedule:
-    - cron: '17,47 * * * *'
 permissions:
   contents: write
 concurrency:
