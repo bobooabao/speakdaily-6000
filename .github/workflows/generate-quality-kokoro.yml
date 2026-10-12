@@ -2,20 +2,21 @@ name: Generate SpeakDaily Kokoro Voices
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,27,47 * * * *'
+    - cron: '11,31,51 * * * *'
   push:
     paths:
       - '.github/workflows/generate-quality-kokoro.yml'
       - 'scripts/generate_quality_kokoro.py'
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: speakdaily-quality-kokoro
   cancel-in-progress: false
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,37 +24,52 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Check remaining audio
-        id: pending
-        run: |
-          python - <<'PY'
-          import json, pathlib, os
-          base=pathlib.Path('quality-v3')
-          total=sum(len(json.loads((base/name).read_text())) for name in ['sentences.json','extra-01.json','extra-02.json','extra-03.json'])
-          total+=sum(len(d['turns']) for d in json.loads((base/'dialogues.json').read_text()))
-          total+=len(json.loads((base/'essentials.json').read_text()))
-          done=len(list((base/'audio').glob('*.mp3'))) if (base/'audio').exists() else 0
-          print(f'Kokoro audio progress: {done}/{total}')
-          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f'needed={str(done<total).lower()}\n')
-          PY
+      - name: Check audio completion
+        id: check
+        run: python scripts/generate_quality_kokoro.py --status >> "$GITHUB_OUTPUT"
       - name: Install Kokoro and MP3 encoder
-        if: steps.pending.outputs.needed == 'true'
+        if: steps.check.outputs.pending != '0'
         run: |
           sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
           pip install 'kokoro>=0.9.4,<1.0' soundfile numpy
-      - name: Generate missing Kokoro voices
-        if: steps.pending.outputs.needed == 'true'
+      - name: Continuously generate and checkpoint audio
+        if: steps.check.outputs.pending != '0'
         env:
-          BATCH_SIZE: '60'
-        run: python scripts/generate_quality_kokoro.py
-      - name: Commit generated audio
-        if: steps.pending.outputs.needed == 'true'
+          BATCH_SIZE: '30'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add quality-v3/audio/
-          if ! git diff --cached --quiet; then
-            git commit -m "Generate next batch of Kokoro am_michael audio"
-            git pull --rebase origin main
-            git push origin HEAD:main
+          deadline=$((SECONDS + 18600))
+          while (( SECONDS < deadline )); do
+            status=$(python scripts/generate_quality_kokoro.py --status)
+            printf '%s\n' "$status"
+            pending=$(printf '%s\n' "$status" | sed -n 's/^pending=//p')
+            if [ "$pending" = "0" ]; then
+              echo "All audio files are ready."
+              break
+            fi
+            # Save partial work even if the generation command fails.
+            python scripts/generate_quality_kokoro.py || echo "Batch failed; checkpointing successful files and retrying on next scheduled run."
+            git add quality-v3/audio/
+            if ! git diff --cached --quiet; then
+              git commit -m "Generate Kokoro am_michael audio checkpoint"
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+            sleep 2
+          done
+      - name: Verify final completion
+        id: finish
+        if: always()
+        run: |
+          if [ -f scripts/generate_quality_kokoro.py ]; then
+            python scripts/generate_quality_kokoro.py --status | tee /tmp/audio-status
+            cat /tmp/audio-status >> "$GITHUB_OUTPUT"
           fi
+      - name: Stop scheduled generation after completion
+        if: steps.finish.outputs.pending == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "All Kokoro files are complete. Disabling this workflow's future schedules."
+          gh api --method PUT "repos/${{ github.repository }}/actions/workflows/generate-quality-kokoro.yml/disable" || echo "Automatic disable unavailable; future checks will be no-op."
