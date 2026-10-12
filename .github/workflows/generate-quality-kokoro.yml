@@ -2,7 +2,7 @@ name: Generate SpeakDaily Kokoro Voices
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '7,27,47 * * * *'
   push:
     paths:
       - '.github/workflows/generate-quality-kokoro.yml'
@@ -23,15 +23,31 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Check remaining audio
+        id: pending
+        run: |
+          python - <<'PY'
+          import json, pathlib, os
+          base=pathlib.Path('quality-v3')
+          total=sum(len(json.loads((base/name).read_text())) for name in ['sentences.json','extra-01.json','extra-02.json','extra-03.json'])
+          total+=sum(len(d['turns']) for d in json.loads((base/'dialogues.json').read_text()))
+          total+=len(json.loads((base/'essentials.json').read_text()))
+          done=len(list((base/'audio').glob('*.mp3'))) if (base/'audio').exists() else 0
+          print(f'Kokoro audio progress: {done}/{total}')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f: f.write(f'needed={str(done<total).lower()}\n')
+          PY
       - name: Install Kokoro and MP3 encoder
+        if: steps.pending.outputs.needed == 'true'
         run: |
           sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
           pip install 'kokoro>=0.9.4,<1.0' soundfile numpy
       - name: Generate missing Kokoro voices
+        if: steps.pending.outputs.needed == 'true'
         env:
           BATCH_SIZE: '60'
         run: python scripts/generate_quality_kokoro.py
       - name: Commit generated audio
+        if: steps.pending.outputs.needed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
